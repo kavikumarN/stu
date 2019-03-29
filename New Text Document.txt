@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Student Management System</title>
+</head>
+<body>
+<script>
+  username: <input type="text" name="uname"><br>
+  password: <input type="text" name="pword"><br>
+  <button onclik="valid()">Submit</button>
+function valid()
+{
+<button onclick="addstu()">Add</button><br>
+<button onclick="viewstu()">view</button>
+}
+</script>
+
+</body>
+</html>
+
+
+var x = document.createElement("INPUT");
+  x.setAttribute("type", "button");
+  x.setAttribute("value", "Add");
+  document.body.appendChild(x);
+   
+  
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "button");
+  x.setAttribute("value", "View");
+  document.body.appendChild(x);
+
+ var x = document.getElementById("myBtn").value;
+  document.getElementById("demo").innerHTML = x;

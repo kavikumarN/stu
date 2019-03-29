@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Student Management System</title>
+<script type="text/javascript" src="/stu.js">
+<!--
+function valid() {
+ var x = document.getElementById("uname").value;
+ var y = document.getElementById("pword").value;
+ var valid = Module.cwrap('valid', 'int', ['string','string'],x,y);
+ var z=valid(x,y);
+ if(z==1)
+ {
+    document.write("valid"); 
+  }
+  else
+ {
+     document.write("valid"); 
+ }
+}
+//-->
+</script>
+</head>
+<body>
+username : <input type="text" id="uname" /><br>
+password : <input type="text" id="pword" /><br>
+<input type="button" onclick="valid()" value="Submit" />
+</body>
+</html>
